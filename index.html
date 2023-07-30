@@ -22,15 +22,15 @@
       </div>
     </header>
     <main class="app-main text-bg-secondary">
+    <h2 class="city-search" id="city-search">Search a City:</h2>
       <div class=".container-fluid">
         <div class="row page-content">
           <div class="col-sm-4 p-0">
-            <div class="input-group">
               <div class="input-group">
                 <input
                   type="search"
                   class="form-control rounded"
-                  placeholder="Search"
+                  placeholder="Plainsboro"
                   aria-label="Search"
                   aria-describedby="search-addon"
                 />
@@ -38,22 +38,75 @@
               </div>
             </div>
           </div>
-          <div
-            id="search-history-container"
-            class="row m-0 search-history-container"
-          ></div>
         </div>
-      </div>
+          <div id="previous-search-container"
+          class="row m-0 previous-search-container">
+          <ol>
+            <li>
+                sample search history 1
+            </li>
+            <li>
+                sample search history 2
+            </li>
+            <li>
+                sample search history 3
+            </li>
+            <li>
+                sample search history 4
+            </li>
+            <li>
+                sample search history 5
+            </li>
+          </ol>
+          </div>
+        </div>
       <div class="col-sm-8 p-0">
         <div id="weather-now" class="row d-block">
           <div class="weather-now-container">
-            <h2 id="weather-now-title" class="weather-now-title d-inline"></h2>
+            <h2 id="weather-now-title" class="weather-now-title d-inline">Today</h2>
           </div>
-          <p class="now-temp" id="now-temp"></p>
-          <p class="now-hum" id="now-hum"></p>
-          <p class="now-wind" id="now-wind"></p>
+          <p class="now-temp" id="now-temp">temp</p>
+          <p class="now-hum" id="now-hum">humidity</p>
+          <p class="now-wind" id="now-wind">wind</p>
+        </div>
+      </div>
+      <div class="row forecast-container d-block">
+        <div id="forecast-card-container" class="forecast-card-container d-flex justify-content-between">
+            <div class="forecast-card bg-primary rounded">
+                <p class="forecast-date" id="forecast-date-1">Date</p>
+                <p class="forecast-temp" id="forecast-temp-1">temp</p>
+                <p class="forecast-humidity" id="forecast-humidity-1">humidity</p>
+                <p class="forecast-wind" id="forecast-wind-1">wind</p>
+            </div>
+            <div class="forecast-card bg-primary rounded">
+                <p class="forecast-date" id="forecast-date-2">Date</p>
+                <p class="forecast-temp" id="forecast-temp-2">temp</p>
+                <p class="forecast-humidity" id="forecast-humidity-2">humidity</p>
+                <p class="forecast-wind" id="forecast-wind-2">wind</p>
+            </div>
+            <div class="forecast-card bg-primary rounded">
+                <p class="forecast-date" id="forecast-date-3">Date</p>
+                <p class="forecast-temp" id="forecast-temp-3">temp</p>
+                <p class="forecast-humidity" id="forecast-humidity-3">Humidity</p>
+                <p class="forecast-wind" id="forecast-wind-3">wind</p>
+            </div>
+            <div class="forecast-card bg-primary rounded">
+                <p class="forecast-date" id="forecast-date-4">Date</p>
+                <p class="forecast-temp" id="forecast-temp-4">temp</p>
+                <p class="forecast-humidity" id="forecast-humidity-4">humidity</p>
+                <p class="forecast-wind" id="forecast-wind-4">wind</p>
+            </div>
+            <div class="forecast-card bg-primary rounded">
+                <p class="forecast-date" id="forecast-date-5">Date</p>
+                <p class="forecast-temp" id="forecast-temp-5">temp</p>
+                <p class="forecast-humidity" id="forecast-humidity-5">humidity</p>
+                <p class="forecast-wind" id="forecast-wind-5">wind</p>
+            </div>
         </div>
       </div>
     </main>
   </body>
+  <footer class="footer d-flex text-bg-dark justify-content-center">
+    <h3>Sun, Shine, or Anything in Between - Have a great Day!</h3>
+  </footer>
 </html>
