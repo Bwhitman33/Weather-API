@@ -27,7 +27,6 @@ main {
 .previous-search-container {
     display: flex;
     flex-direction: column;
-
     padding: 10px;
     border-style: inset;
 }
