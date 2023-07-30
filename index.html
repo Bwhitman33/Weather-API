@@ -29,85 +29,72 @@
               <div class="input-group">
                 <input
                   type="search"
+                  id="search-value"
                   class="form-control rounded"
-                  placeholder="Plainsboro"
+                  placeholder="Search"
                   aria-label="Search"
                   aria-describedby="search-addon"
                 />
-                <button type="button" class="btn btn-primary">search</button>
+                <button type="button" id="search-button"class="btn btn-primary">search</button>
               </div>
             </div>
           </div>
         </div>
           <div id="previous-search-container"
           class="row m-0 previous-search-container">
-          <ol>
-            <li>
-                sample search history 1
-            </li>
-            <li>
-                sample search history 2
-            </li>
-            <li>
-                sample search history 3
-            </li>
-            <li>
-                sample search history 4
-            </li>
-            <li>
-                sample search history 5
-            </li>
-          </ol>
           </div>
         </div>
       <div class="col-sm-8 p-0">
         <div id="weather-now" class="row d-block">
           <div class="weather-now-container">
-            <h2 id="weather-now-title" class="weather-now-title d-inline">Today</h2>
+            <h2 id="weather-now-title" class="weather-now-title d-inline"></h2>
           </div>
-          <p class="now-temp" id="now-temp">temp</p>
-          <p class="now-hum" id="now-hum">humidity</p>
-          <p class="now-wind" id="now-wind">wind</p>
+          <p class="today-temp" id="today-temp"></p>
+          <p class="today-hum" id="today-hum"></p>
+          <p class="today-wind" id="today-wind"></p>
         </div>
       </div>
       <div class="row forecast-container d-block">
         <div id="forecast-card-container" class="forecast-card-container d-flex justify-content-between">
             <div class="forecast-card bg-primary rounded">
-                <p class="forecast-date" id="forecast-date-1">Date</p>
-                <p class="forecast-temp" id="forecast-temp-1">temp</p>
-                <p class="forecast-humidity" id="forecast-humidity-1">humidity</p>
-                <p class="forecast-wind" id="forecast-wind-1">wind</p>
+                <p class="forecast-date" id="forecast-date-1"></p>
+                <p class="forecast-temp" id="forecast-temp-1"></p>
+                <p class="forecast-humidity" id="forecast-humidity-1"></p>
+                <p class="forecast-wind" id="forecast-wind-1"></p>
             </div>
             <div class="forecast-card bg-primary rounded">
-                <p class="forecast-date" id="forecast-date-2">Date</p>
-                <p class="forecast-temp" id="forecast-temp-2">temp</p>
-                <p class="forecast-humidity" id="forecast-humidity-2">humidity</p>
-                <p class="forecast-wind" id="forecast-wind-2">wind</p>
+                <p class="forecast-date" id="forecast-date-2"></p>
+                <p class="forecast-temp" id="forecast-temp-2"></p>
+                <p class="forecast-humidity" id="forecast-humidity-2"></p>
+                <p class="forecast-wind" id="forecast-wind-2"></p>
             </div>
             <div class="forecast-card bg-primary rounded">
-                <p class="forecast-date" id="forecast-date-3">Date</p>
-                <p class="forecast-temp" id="forecast-temp-3">temp</p>
-                <p class="forecast-humidity" id="forecast-humidity-3">Humidity</p>
-                <p class="forecast-wind" id="forecast-wind-3">wind</p>
+                <p class="forecast-date" id="forecast-date-3"></p>
+                <p class="forecast-temp" id="forecast-temp-3"></p>
+                <p class="forecast-humidity" id="forecast-humidity-3"></p>
+                <p class="forecast-wind" id="forecast-wind-3"></p>
             </div>
             <div class="forecast-card bg-primary rounded">
-                <p class="forecast-date" id="forecast-date-4">Date</p>
-                <p class="forecast-temp" id="forecast-temp-4">temp</p>
-                <p class="forecast-humidity" id="forecast-humidity-4">humidity</p>
-                <p class="forecast-wind" id="forecast-wind-4">wind</p>
+                <p class="forecast-date" id="forecast-date-4"></p>
+                <p class="forecast-temp" id="forecast-temp-4"></p>
+                <p class="forecast-humidity" id="forecast-humidity-4"></p>
+                <p class="forecast-wind" id="forecast-wind-4"></p>
             </div>
             <div class="forecast-card bg-primary rounded">
-                <p class="forecast-date" id="forecast-date-5">Date</p>
-                <p class="forecast-temp" id="forecast-temp-5">temp</p>
-                <p class="forecast-humidity" id="forecast-humidity-5">humidity</p>
-                <p class="forecast-wind" id="forecast-wind-5">wind</p>
+                <p class="forecast-date" id="forecast-date-5"></p>
+                <p class="forecast-temp" id="forecast-temp-5"></p>
+                <p class="forecast-humidity" id="forecast-humidity-5"></p>
+                <p class="forecast-wind" id="forecast-wind-5"></p>
             </div>
         </div>
       </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="./assets/js/script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
     </main>
-    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script> -->
   </body>
   <footer class="footer d-flex text-bg-dark justify-content-center">
     <h3>Sun, Shine, or Anything in Between - Have a great Day!</h3>
